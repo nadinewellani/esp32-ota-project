@@ -54,8 +54,8 @@
 #include <WebServer.h>
 
 // --- REMPLACE TES INFOS ---
-const char* ssid = "iPhone";
-const char* password = "yasmine1234";
+const char* ssid = "Ooredoo-321536";
+const char* password ="49876C5BSr!78";
 
 String currentVersion = "1.0";
 
