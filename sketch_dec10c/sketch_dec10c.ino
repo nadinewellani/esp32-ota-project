@@ -441,7 +441,8 @@ bool downloadAndUpdate(const char* url, const char* expectedSha256Hex) {
       Serial.println("Update écrite avec succès !");
       Serial.println("Redémarrage dans 2 secondes...");
       delay(2000);
-      return true;
+      ESP.restart(); // Redémarrer l'ESP32
+      return true; // Ne sera jamais atteint, mais nécessaire pour la compilation
     } else {
       Serial.println("ERREUR: Impossible de définir la partition de boot !");
       return false;
@@ -453,7 +454,8 @@ bool downloadAndUpdate(const char* url, const char* expectedSha256Hex) {
         Serial.println("Update écrite avec succès !");
         Serial.println("Redémarrage dans 2 secondes...");
         delay(2000);
-        return true;
+        ESP.restart(); // Redémarrer l'ESP32
+        return true; // Ne sera jamais atteint, mais nécessaire pour la compilation
       } else {
         Serial.println("Update non terminée correctement.");
         return false;
