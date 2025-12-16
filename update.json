@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
-  "url": "https://raw.githubusercontent.com/nadinewellani/esp32-ota-project/main/sketch_dec10a.ino.bin",
-  "sha256": "cbffe22f2191c94071388ad578be9e6003a1f3404a895cafb3e355849d6dc251"
+ "version": "2.0",
+  "url": "https://raw.githubusercontent.com/nadinewellani/esp32-ota-project/main/firmware2.ino.bin",
+  "sha256": "0e6e8c272c73768e5ad3a2bde90fa565f26610932afee3a840391ed3347cb3df"
 }
