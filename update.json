@@ -1,5 +1,5 @@
 {
- "version": "5.0",
-  "url": "https://raw.githubusercontent.com/nadinewellani/esp32-ota-project/main/sketch_dec10a.ino.bin",
-  "sha256": "CBFFE22F2191C94071388AD578BE9E6003A1F3404A895CAFB3E355849D6DC251"
+ "version": "6.0",
+  "url": "https://raw.githubusercontent.com/nadinewellani/esp32-ota-project/main/frimware.ino.bin",
+  "sha256": "0E6E8C272C73768E5AD3A2BDE90FA565F26610932AFEE3A840391ED3347CB3DF"
 }
